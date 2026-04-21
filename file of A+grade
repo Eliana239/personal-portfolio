@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+     <html lang="en">
+        <head>
+           <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="author" content="Eliana Wangui and more to come">
+            <title> Winning Grade</title>
+                 <style>
+                    /*Add some basic styling to make  page look nicer*/
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f0f0;
+                    margin: 0;
+                    padding: 20px;
+                }
+                h1 {
+                    font-size: 36px;
+                    color: #333;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: #555;
+                    max-width: 600px;
+                    margin: 0 auto 20px auto;
+                }
+                /*box style*/
+             .box {
+                    background-color: white;
+                    padding: 20px;
+                    margin: 20px auto;
+                    border-radius: 10px;
+                    width: 70%;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    text-align: center;
+                }
+             .grade
+                {
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: #4CAF50;
+                    text-align: center;
+                }
+                .subtitle
+                {
+                    text-align: center;
+                    color: #666;
+                }
+                .box img
+                {
+                   width:100px;
+                   border-width:10px;
+                }
+            </style>
+        </head>
+    <body>
+        <h1> Winning Grade</h1>
+           <div class="box">
+  <!--this is a simple HTML page with styled boxes-->
+        <p>This project demonstrates how to create a simple HTML page with styled boxes to display information about a student's performance and final grade.</p>
+        </div>
+        <div class="box">
+  <!--this is how l think l have preformed-->
+            <p class="subtitle">Student Performance Summary</p>
+        </div>
+          <div class="box">
+            <!--in my prespective-->
+            <p>this is my project and l known anyone who is seeing it for a beginner it is not that bad it derveses an certificate</p>
+            </div>
+            <div class="box">
+            <!--in God's grace this project will get this grade-->
+             <p class="subtitle">Final Grade</p>
+                 <div class="grade">
+                    <p>A+</p>
+                 </div>
+                    </div>
+            <div class="box">
+                <!--this image describes a future me in some few years to come-->
+    <img src="WhatsApp Image 2026-04-20 at 18.26.39.jpeg" alt="A+ Grade">
+                 </div>
+                 <div class="box">
+                    <!--this is for my coding teacher-->
+                 <p> this project is for you mr.jackton for the knowledge you have shared with me.<br>Thank you for your great support and guiding me through the first step in coding world.<br>l am looking forward to learn more from you as a tutor,a mentor and a person l look up to.</p>
+                </div>
+         </body>
+    </html>
