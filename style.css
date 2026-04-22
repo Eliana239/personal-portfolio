@@ -1,0 +1,75 @@
+/* 1. THE RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 2. THE BACKGROUND AND TEXT */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+/*3. THE NAVIGATION BAR*/
+navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10px;
+    background-color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #db2777;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a:hover{
+    color: #db2777;
+}
+
+/* 4. THE HERO SECTION */
+     .hero {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       min-height: 80vh;
+       padding: 0 10px;
+}
+
+     .hero-text p span{
+        display:block;
+        color:#db2777;
+        font-weight: bold;
+}
+
+/* 5.THE BUTTON */
+    .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #db2777;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-top: 20px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #be185d;
+        transform: scale(1.05);
+    }
+
+    /* 6. THE IMAGES */
+    .hero-image img {
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
